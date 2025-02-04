@@ -1,6 +1,6 @@
 var Score = 0;
 var Stage = 0;
-var Timer = 20;
+var Timer = 120;
 var Interval = 1000;
 randomWord = null
 var Words = ['html', 'css', 'link', 'color', 'background-color', 'input', 'article',
