@@ -1,12 +1,16 @@
 var Score = 0;
 var Stage = 0;
-var Timer = 50;
+var Timer = 20;
 var Interval = 1000;
 randomWord = null
-var Words = ['route', 'rank', 'outline', 'poem', 'trance', 'brain', 'dome',
- 'cave', 'thread', 'gown', 'crackpot', 'eavesdrop', 'courage', 'root', 'eternal', 'long', 
- 'wording', 'alive', 'pity', 'fresh', 'issue', 'impound', 'side', 'smart', 'persist',
- 'power', 'veteran', 'bind'
+var Words = ['html', 'css', 'link', 'color', 'background-color', 'input', 'article',
+ 'div', 'section', 'main', 'transparent', 'opacity', 'body', 'aside', 'button', 'before', 
+ 'after', 'logo', 'footer', 'header', 'display', 'manuchari', 'turmanidze', 'head', 'title',
+ 'flex', 'grid', 'block', 'inline-block', 'table', 'style', 'href', 'margin', 'padding', 'top', 'left', 'right',
+ 'bottom', 'left', 'template', 'column', 'row', 'inline', 'border', 'radius', 'width', 'height', 'box', 'shadow',
+ 'outline', 'none', 'inherit', 'cover', 'contain', 'align', 'center', 'auto', 'font', 'size', 'animation', 'duration',
+ 'fixed', 'sticky', 'hidden', 'visibility', 'visible', 'delay', 'keyframe', 'media', 'screen', 'folder', 'direction',
+ 'cursor', 'pointer', 'transition', 'hover', 'transform', 'translate', 'scale', 'z-index'
 ]
 
 setDefData()
@@ -23,7 +27,7 @@ if (document.querySelector('input').value === randomWord){
 
 function setDefData(){
     document.querySelector('.score').innerHTML = "Score" + Score
-    document.querySelector('.stage').innerHTML = "Stage" + Stage
+    document.querySelector('.stage').innerHTML = "Score" + Score
    setRandomWord()
 }
 function setRandomWord(){

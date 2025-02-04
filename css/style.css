@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
     border: none;
     user-select: none;
 }.font{
-    font-family: 'Odibee Sans', cursive;
+    font-family: "Roboto", serif;
 }
 .top-conent{
     display: flex;
